@@ -1,14 +1,14 @@
-.login {
+.card-login {
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  align-items: center;
   background-color: #eef0e6;
   width: 100%;
   max-width: 650px;
   border-radius: 8px;
   padding: 27px 25px 18px;
-}
-
-.login-text {
-  font-size: 16px;
+  margin: 20px 0px;
 }
 
 .login-head {
@@ -17,12 +17,15 @@
   font-size: 35px;
 }
 
+.login-text {
+  font-size: 16px;
+}
+
 .input {
   width: 100%;
   max-width: 300px;
   padding: 12px 20px;
   border-radius: 8px;
-  border: 10%;
   box-sizing: border-box;
   margin-top: 20px;
 }
@@ -32,7 +35,6 @@
   max-width: 300px;
   padding: 12px 20px;
   border-radius: 8px;
-  border: 10%;
   text-transform: uppercase;
   border-color: #b48d66;
   margin-bottom: 100px;
