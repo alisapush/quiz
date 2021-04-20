@@ -1,37 +1,54 @@
 body {
   display: flex;
   flex-direction: column;
-  align-items: center;
   font-family: Proxima Nova, Arial, Helvetica Neue, sans-serif;
 }
 
-/* Add a black background color to the top navigation */
-.topnav {
+.main-page {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin: -10px 0px 20px 0px;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* all classes for the "header" */
+
+.header {
+  display: flex;
+  justify-content: space-between;
   width: 100%;
   padding: 20px;
+  color: #996633;
   background-color: rgb(246, 232, 223, 1);
+  font-family: Helvetica;
 }
 
-/* Style the links inside the navigation bar */
-.topnav a {
+.header-section {
+  display: flex;
+  align-items: center;
+}
+
+.header-item {
+  padding: 10px 15px;
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.header a {
   text-decoration: none;
-  font-size: 18px;
   color: #996633;
 }
 
-/* Change the color of links on hover */
-.topnav a:hover {
-  color: #996633;
+.header a.active {
+  font-weight: bold;
 }
 
-/* Add a color to the active/current link */
-.topnav a.active {
-  color: #1f2635;
+.header-item:hover {
+  background-color: rgb(228, 202, 186);
+  border-radius: 6px;
 }
+
+/* title at the top of the page */
 
 .title {
   text-align: center;
@@ -40,58 +57,16 @@ body {
   margin: 0px 0px 10px 0px;
 }
 
-.card {
-  width: 100%;
-  max-width: 650px;
-  border-radius: 8px;
-  padding: 27px 25px 18px;
-  background-color: #eef0e6;
-}
-
-.card-head {
-  font-size: 35px;
-  text-align: center;
-  margin-top: 0px;
-}
-
-.card-text {
-  font-size: 20px;
-}
-
-.card-button {
-  width: 100%;
-  height: 42px;
-  padding: 6px 18px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  border-radius: 8px;
-  border: 10%;
-  border-color: #b48d66;
-  font-size: 12px;
-  font-weight: 600;
-  line-height: 22px;
-  color: black;
-  transition: background-color 0.15s ease-out;
-  background-color: #eef0e6;
-}
-
-.card-button:hover {
-  background-color: #b48d66;
-}
-
-.card-button:active {
-  border-color: #b48d66;
-}
+/* all classes for the "footer" */
 
 .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
+  padding: 20px;
+  margin-top: auto;
   width: 100%;
-  background-color: #b48d66;
-  color: #eef0e6;
   font-size: 15px;
   text-align: center;
+  color: #eef0e6;
+  background-color: #b48d66;
 }
 
 .footer a {
