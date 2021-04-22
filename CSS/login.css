@@ -1,0 +1,49 @@
+.card-login {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: #eef0e6;
+  width: 100%;
+  max-width: 650px;
+  border-radius: 8px;
+  padding: 27px 25px 18px;
+  margin: 20px 0px;
+}
+
+.login-head {
+  margin: 30px 60px;
+  text-align: center;
+  font-size: 35px;
+}
+
+.login-text {
+  font-size: 16px;
+}
+
+.input {
+  width: 100%;
+  max-width: 300px;
+  padding: 12px 20px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+
+.login-button {
+  width: 100%;
+  max-width: 300px;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  border-color: #b48d66;
+  margin-bottom: 100px;
+}
+
+.login-button:hover {
+  background-color: #b48d66;
+}
+
+.login-button:active {
+  border-color: #b48d66;
+}

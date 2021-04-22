@@ -1,0 +1,43 @@
+.card-quiz {
+  width: 100%;
+  max-width: 650px;
+  border-radius: 8px;
+  padding: 27px 25px 18px;
+  margin: 20px 0px;
+  background-color: #eef0e6;
+}
+
+.card-head {
+  font-size: 35px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.card-text {
+  font-size: 20px;
+}
+
+.card-button {
+  width: 100%;
+  height: 42px;
+  padding: 6px 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  border: 10%;
+  border-color: #b48d66;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 22px;
+  color: black;
+  transition: background-color 0.15s ease-out;
+  background-color: #eef0e6;
+}
+
+.card-button:hover {
+  background-color: #b48d66;
+}
+
+.card-button:active {
+  border-color: #b48d66;
+}

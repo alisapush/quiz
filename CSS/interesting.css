@@ -1,0 +1,39 @@
+.page {
+  background-color: #eef0e6;
+  width: 100%;
+  max-width: 1200px;
+  border-radius: 8px;
+  padding: 27px 25px 18px;
+  margin: 20px 0px;
+}
+
+.page-head {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 0px;
+}
+
+.page-text {
+  font-size: 20px;
+}
+
+.page-title {
+  font-size: 30px;
+}
+
+.sub-page {
+  text-align: center;
+  color: #996633;
+  font-size: 20px;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  margin: 10px 200px 10px 200px;
+}
+
+img.images {
+  width: 600px;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
