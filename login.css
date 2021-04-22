@@ -1,19 +1,18 @@
 .card-login {
   display: flex;
   flex-direction: column;
-  text-align: center;
   align-items: center;
-  background-color: #eef0e6;
+
   width: 100%;
   max-width: 650px;
   border-radius: 8px;
-  padding: 27px 25px 18px;
   margin: 20px 0px;
+  background-color: #eef0e6;
 }
 
 .login-head {
-  margin: 30px 60px;
   text-align: center;
+  margin: 30px 60px;
   font-size: 35px;
 }
 
@@ -23,16 +22,16 @@
 
 .input {
   width: 100%;
-  max-width: 300px;
+  max-width: 200px;
   padding: 12px 20px;
   border-radius: 8px;
   box-sizing: border-box;
-  margin-top: 20px;
+  margin: 10px;
 }
 
 .login-button {
   width: 100%;
-  max-width: 300px;
+  max-width: 200px;
   padding: 12px 20px;
   border-radius: 8px;
   text-transform: uppercase;
