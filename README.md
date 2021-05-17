@@ -1,2 +1,2 @@
-# Для просмотра перейдите по [ссылке ](https://quiz-site.web.app/index.html "QUIZ").
+# Для просмотра перейдите по [ссылке](https://quiz-from-alice.web.app "QUIZ").
 
